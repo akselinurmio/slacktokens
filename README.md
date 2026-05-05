@@ -21,6 +21,15 @@ If you use the Slack desktop app, these details will be stored on your local mac
 This script extracts them from the app's local store so you can use them for purposes not
 provided for by the app itself.
 
+# CLI
+
+Build a standalone binary that outputs tokens and cookie as JSON (requires `python3.11` and `make`):
+
+```bash
+make build
+./dist/slacktokens
+```
+
 # Usage
 
 Calling `get_tokens_and_cookie()` will return the necessary authorisation details as a
